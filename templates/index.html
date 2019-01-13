@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <nav>
+      <a href="about.html">About Us</a>
+      <a href="process.html">Take the Test</a>
+      <a href="matches.html">Your Matches</a>
+    </nav>
+
+    <title>Career Connects | Our Process</title>
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:300|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='final.css') }}">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="page-wrap">
+      <!-- Header & Nav -->
+      <header>
+        <h1><span class="highlight">Career</span>Connects</h1>
+        <h2>Your Career Mentor Matches </h2>
+      </header>
+
+      <!-- main content -->
+      <main role="main">
+        <p class="{{mentor.className}}"><img height="100" src="{{ url_for('static', filename='') }}{{ mentor.imageURL }}"><br>
+        {{mentor.name}}: {{mentor.position}}<br>
+        Interests: {{mentor.interests}}</p>
+
+      </main>
+    </div><!-- close "page-wrap" -->
+
+    <div> <!-- Chat button -->
+      <form action="https://chat-1b75f.firebaseapp.com" target="_blank">
+    <input type="submit" value="Connect with {{mentor.name}}" />]]
+</form>
+    </div>
+    <!-- page footer -->
+    <footer>
+      <p>&#169; 2019 by <span class="highlight">Career</span>Connects</p>
+    </footer>
+  </body>
+</html>
