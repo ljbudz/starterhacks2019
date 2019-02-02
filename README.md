@@ -1,4 +1,5 @@
 # starterhacks2019
+# CareerConnects
 
 Toronto Police Services wants to find ways to intervene in youth that may be going down a path of drugs, crime, and gang violence. Current career tests for students are single-minded, focusing only on interests they hold at the moment. Plum uses a personality and aptitude test to identify job roles a candidate would fit well with. Our idea combines the problems of the first two statements with the unique opportunity Plum's psychometric test provides.
 
